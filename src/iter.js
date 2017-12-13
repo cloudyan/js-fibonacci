@@ -7,7 +7,7 @@
  */
 function iter(n) {
   let current = 0
-  let next
+  let next = 1
   /* eslint no-plusplus: 0 */
   for (let i = 0; i < n; i++) {
     const swap = current
