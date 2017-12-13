@@ -6,7 +6,7 @@
   "scripts": {
     "prepublishOnly": "npm run lib",
     "lib": "babel src -d lib",
-    "test": "npm run lib && node test/fastfib.spec.js && node benchmark"
+    "test": "node test/fastfib.spec.js && node benchmark"
   },
   "repository": {
     "type": "git",
