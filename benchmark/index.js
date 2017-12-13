@@ -1,14 +1,14 @@
 
 // https://www.npmjs.com/package/benchmark
 
-import assert from 'assert'
-import { Suite } from 'benchmark'
-import recurse from '../src/recurse'
-import tail from '../src/tail'
-import iter from '../src/iter'
+const assert = require('assert')
+const suite = new (require('benchmark')).Suite
+const recurse = require('../lib/recurse')
+const tail = require('../lib/tail')
+const iter = require('../lib/iter')
 
 /* eslint new-parens: 0 */
-const suite = new Suite
+// const suite = new Suite
 
 /* eslint func-names: 0 */
 suite
