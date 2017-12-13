@@ -21,7 +21,6 @@ suite
     this.forEach(function (result) {
       console.log(result.name, result.count, result.times.elapsed)
     })
-    // console.log(this.filter('fastest'))
     assert.equal(
       this.filter('fastest').map('name'),
       'iter',
