@@ -4,8 +4,8 @@
   "description": "fastfib 使用 JavaScript 尽可能快地来计算斐波那契数列。",
   "main": "lib/index.js",
   "scripts": {
-    "prepublishOnly": "npm run lib",
-    "lib": "babel src -d lib",
+    "prepublishOnly": "npm run build",
+    "build": "babel src -d lib",
     "test": "node test/fastfib.spec.js && node benchmark"
   },
   "repository": {
